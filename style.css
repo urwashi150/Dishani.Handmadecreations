@@ -1,0 +1,70 @@
+body{
+  background: linear-gradient(to bottom, #EFD595,#EFB495, #EF9595,#C63D2F);/* Light blue to brown gradient */
+  /* You can adjust the angle and colors as needed */
+  margin: 0;
+  padding: 0;
+}
+h1{
+  text-align: center;
+  color: black;
+}
+
+.centered-image {
+  display: block;
+  margin: 0 auto;
+  height: 150px;
+  width: auto;
+}
+.navbar-center {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  flex-grow: 1; /* Allow the center div to grow and take up available space */
+}
+
+.navbar-toggler {
+  order: 2; /* Position the toggle button to the right */
+}
+.navbar {
+ --bs-bg-opacity: 0; 
+  background-color: #fff;
+}
+#menubar{
+  background-color: #fff;
+  display: block;
+}
+.w-100 {
+  width: 500px !important;
+  
+}
+.carousel-inner {
+  transition: transform 0.03s ; /* Set the transition duration to 500ms */
+}
+
+.eachRide{
+  padding: 1rem;
+  margin: 0.5rem;
+  height: auto;
+  /* background-color: #98DFD6; */
+}
+.kalign{
+  text-align: center;
+}
+.uponhover:hover{
+  background-color: #EF9595;
+}
+hr.gradient {
+  height: 2px;
+  border: none;
+  background: linear-gradient(to right, #ff6600, #0099cc, #33cc33);
+  margin-top: 3rem;
+}
+
+#Products{
+  padding-top: 3rem;
+}
+section#carousel {
+  padding-top: 3rem;
+}
+
+EF9595
