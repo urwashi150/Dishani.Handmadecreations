@@ -53,11 +53,90 @@ h1{
 .uponhover:hover{
   background-color: #EF9595;
 }
+.uponhover1:hover{
+  background-color: #EADBC8;
+}
+.bottom-container{
+  background-color: #94AF9F;
+  padding: 50px 0 20px;
+  margin: 0px auto;
+}
+.icon{
+  width: 30px;
+  height: 30px;
+  color:#A84448;
+}
 hr.gradient {
   height: 2px;
   border: none;
   background: linear-gradient(to right, #ff6600, #0099cc, #33cc33);
   margin-top: 3rem;
+}
+.bottom-container{
+  background-color: white;
+  padding: 50px 0 20px;
+  margin: 0px auto;
+  text-align: center;
+}
+section.contact{
+  padding-top: 3 rem;
+}
+.contact-me{
+  text-align: center;
+  color: #0a0806;
+ 
+}
+contact-message{
+  width:40%;
+  margin:40px auto 60px;
+}
+/*.btn {
+  background: #a05f4ac4;
+  background-image: -webkit-linear-gradient(top, white,white);
+  background-image: -moz-linear-gradient(top, white, white);
+  background-image: -ms-linear-gradient(top, white, white);
+  background-image: -o-linear-gradient(top, white, white);
+  background-image: linear-gradient(to bottom, white, white);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: black;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  border: solid #bdb1a5 2px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #ba6161;
+  background-image: -webkit-linear-gradient(top, #EF9595, #C63D2F);
+  background-image: -moz-linear-gradient(top, #EF9595, #C63D2F);
+  background-image: -ms-linear-gradient(top, #EF9595, #C63D2F);
+  background-image: -o-linear-gradient(top, #EF9595, #C63D2F);
+  background-image: linear-gradient(to bottom, #EF9595, #C63D2F);
+  text-decoration: none;
+}
+*/
+.btn{
+  background-color: #EADBC8;
+  color: #0a0806;
+  border-radius: 8px;
+  font-family: Arial;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  border: solid black 2px;
+
+}
+.btn:hover{
+   background-color: #EF9595 ;
+   border: solid #EFB495 2px;
+
+}
+.copyright{
+  color: #eaf6f6;
+  font-size: 0.75em;
+  padding: 20px 0px;
 }
 
 #Products{
@@ -67,4 +146,11 @@ section#carousel {
   padding-top: 3rem;
 }
 
-EF9595
+section#About{
+ color:black;
+ text-align: center;
+
+}
+section#About {
+  margin-top: 3rem;
+}
