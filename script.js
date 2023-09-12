@@ -11,3 +11,13 @@ function showCategory(categoryId) {
         categoryImages.style.display = 'block';
     }
 }
+
+document.querySelectorAll('#navbarToggleExternalContent a.nav-link').forEach(function(link) {
+    link.addEventListener('click', function() {
+      // Close the collapsible content
+      var collapsible = document.querySelector('#navbarToggleExternalContent');
+      if (collapsible.classList.contains('show')) {
+        collapsible.classList.remove('show');
+      }
+    });
+  });
