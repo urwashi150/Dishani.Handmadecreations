@@ -8,12 +8,35 @@ h1{
   text-align: center;
   color: black;
 }
+li {
+  list-style-type: none;
+  margin-top: 2 rem;
+}
+.list_items{
+  padding-block: inherit;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+.left-div {
+  /* Adjust width and styling as needed */
+  width: 3%;
+  padding-left: 3 rem;
 
+}
+
+.center-div {
+  /* Adjust width and styling as needed */
+  width: 40%;
+  
+}
 .centered-image {
   display: block;
   margin: 0 auto;
-  height: 150px;
+  height: 100px;
   width: auto;
+  float: center;
 }
 .navbar-center {
   display: flex;
@@ -21,7 +44,9 @@ h1{
   align-items: center; /* Center vertically */
   flex-grow: 1; /* Allow the center div to grow and take up available space */
 }
-
+#dress{
+  padding-top: 10rem;
+}
 .navbar-toggler {
   order: 2; /* Position the toggle button to the right */
 }
@@ -32,13 +57,16 @@ h1{
 #menubar{
   background-color: #fff;
   display: block;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
 }
 .w-100 {
   width: 500px !important;
   
 }
 .carousel-inner {
-  transition: transform 0.03s ; /* Set the transition duration to 500ms */
+  transition: transform 0.1ms ; /* Set the transition duration to 500ms */
 }
 
 .eachRide{
@@ -86,7 +114,7 @@ section.contact{
   color: #0a0806;
  
 }
-contact-message{
+.contact-message{
   width:40%;
   margin:40px auto 60px;
 }
@@ -143,7 +171,7 @@ contact-message{
   padding-top: 3rem;
 }
 section#carousel {
-  padding-top: 3rem;
+  padding-top: 10rem;
 }
 
 section#About{
@@ -153,4 +181,39 @@ section#About{
 }
 section#About {
   margin-top: 3rem;
+}
+
+.animation{
+  position: relative;
+  animation-name: ani1;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function:ease-in-out;
+  animation-fill-mode: alternate;
+
+   
+}
+@keyframes ani1{
+  from{
+   width: 100%;
+
+  }
+  to{
+    width: 0%;
+  }
+}
+
+#navbarToggleExternalContent {
+  position: fixed;
+  top: 0;
+  left: -100%; /* Initially off-screen to the left */
+  width: 80%; /* Adjust as needed */
+  height: 100%;
+  background-color: white; /* Background color for the menu */
+  transition: left 0.3s ease-in-out; /* Add a transition for smooth animation */
+  z-index: 1000; /* Ensure the menu appears above other content */
+}
+
+#navbarToggleExternalContent.show {
+  left: 0; /* Slide in from the left when open */
 }
