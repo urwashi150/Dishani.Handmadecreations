@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Dishani.Handmadecreations</title>
+  <link rel="icon" type="images/x-icon" href="logo.jpeg">
   <!--bootstrap-->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
@@ -11,55 +12,49 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <section id="menubar">
-        <nav class="navbar bg-body-tertiary ">
-          <div class="container-fluid">
-            <div class="navbar-header">
-              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-            </div>
-            <div class="navbar-center">
-              <a class="navbar-brand" href="#">
-                <img src="logo.jpeg" alt="Centered Image" class="centered-image">
-              </a>
-            </div>
-          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-            <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Dishani.Handmadecreations</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            </div>
+  <section id="menubar">
+  
+    <div class="collapse" id="navbarToggleExternalContent" data-bs-theme="light"> <!-- Change the data-bs-theme to "light" -->
+      <div class="bg-light p-4"> <!-- Change the background color to "bg-light" -->
+        <li class="nav-item uponhover list_items">
+          <a class="nav-link active" aria-current="page" href="index.html#menubar">Home</a>
+        </li>
+        <li class="nav-item uponhover list_items">
+          <a class="nav-link" href="https://www.instagram.com/dishani.handmadecreations/?igshid=MzRlODBiNWFlZA%3D%3D">Instaram</a>
+        </li>
+        <li class="nav-item uponhover list_items">
+          <a class="nav-link" href="index.html#Products">Products</a>
+        </li>
+        <li class="nav-item uponhover list_items">
+          <a class="nav-link" href="index.html#About">About</a>
+        </li>
+        <li class="nav-item uponhover list_items">
+          <a class="nav-link" href="index.html#contact">Contact</a>
+        </li>
         
-            <div class="offcanvas-body">
-              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                <li class="nav-item uponhover">
-                  <a class="nav-link active" aria-current="page" href="index.html#menubar">Home</a>
-                </li>
-                <li class="nav-item uponhover">
-                  <a class="nav-link" href="#">Instaram</a>
-                </li>
-                <li class="nav-item uponhover">
-                  <a class="nav-link" href="index.html#Products">Products</a>
-                </li>
-                <li class="nav-item uponhover">
-                  <a class="nav-link" href="index.html#About">About</a>
-                </li>
-                <li class="nav-item uponhover">
-                  <a class="nav-link" href="index.html#contact">Contact</a>
-                </li>
-                
-            
-              </ul>
-             
-              <form class="d-flex mt-3" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
-              </form>
-            </div>
-          </div>
-        </div>
-      </nav>
-      </section>
+    
+      </ul>
+      </div>
+    </div>
+
+    <nav class="navbar navbar-light bg-light container"> <!-- Change the background color to "bg-light" -->
+        <div class="navbar-center" center-div>
+        <a class="navbar-brand" href="#">
+          <img src="logo.jpeg" alt="Centered Image" class="centered-image">
+        </a>
+      </div>
+      <div class="container-fluid left-div">
+      
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+
+        </button>
+      </div>
+    
+    </nav>
+
+  </section>
+
     
     <section id="dress">      
         <div class="row d-flex justify-content-center ">
