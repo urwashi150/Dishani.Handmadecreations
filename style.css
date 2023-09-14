@@ -22,8 +22,16 @@ li {
 .left-div {
   /* Adjust width and styling as needed */
   width: 3%;
-  padding-left: 3 rem;
+  padding-right: 3 rem;
 
+}
+@media screen and (max-width: 700px) {
+  .left-div{
+  width: 20%;
+  }
+}
+.btn1{
+ text-align: center;
 }
 
 .center-div {
@@ -62,11 +70,11 @@ li {
   z-index: 1;
 }
 .w-100 {
-  width: 500px !important;
+  width: 15rem !important;
   
 }
 .carousel-inner {
-  transition: transform 0.1ms ; /* Set the transition duration to 500ms */
+  transition: transform 0.01ms ; /* Set the transition duration to 500ms */
 }
 
 .eachRide{
@@ -183,25 +191,7 @@ section#About {
   margin-top: 3rem;
 }
 
-.animation{
-  position: relative;
-  animation-name: ani1;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
-  animation-timing-function:ease-in-out;
-  animation-fill-mode: alternate;
 
-   
-}
-@keyframes ani1{
-  from{
-   width: 100%;
-
-  }
-  to{
-    width: 0%;
-  }
-}
 
 #navbarToggleExternalContent {
   position: fixed;
