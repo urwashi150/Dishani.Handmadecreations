@@ -1,12 +1,16 @@
 body{
-  background: linear-gradient(to bottom, #EFD595,#EFB495, #EF9595,#C63D2F);/* Light blue to brown gradient */
+  background: white;/* Light blue to brown gradient */
   /* You can adjust the angle and colors as needed */
   margin: 0;
+  font-family: var(--font-body-family);
   padding: 0;
+  color: #0a0806 ;
+
 }
-h1{
+h4{
   text-align: center;
   color: black;
+  
 }
 li {
   list-style-type: none;
@@ -19,19 +23,10 @@ li {
   display: flex;
   justify-content: space-between;
 }
-.left-div {
-  /* Adjust width and styling as needed */
-  width: 3%;
-  padding-right: 3 rem;
 
-}
-@media screen and (max-width: 700px) {
-  .left-div{
-  width: 20%;
-  }
-}
 .btn1{
  text-align: center;
+ align-items:center ;
 }
 
 .center-div {
@@ -52,6 +47,7 @@ li {
   align-items: center; /* Center vertically */
   flex-grow: 1; /* Allow the center div to grow and take up available space */
 }
+
 #dress{
   padding-top: 10rem;
 }
@@ -68,20 +64,83 @@ li {
   position: fixed;
   width: 100%;
   z-index: 1;
-}
-.w-100 {
-  width: 15rem !important;
+  height: 8rem;
+  /* background-color: #D0E7D2; */
   
 }
+
+
+.imagesizeofc{
+    width:23rem!important;
+    height: 17rem!important;
+    display: block!important;
+}
 .carousel-inner {
-  transition: transform 0.01ms ; /* Set the transition duration to 500ms */
+  transition: transform 0.1ms ; /* Set the transition duration to 500ms */
 }
 
 .eachRide{
   padding: 1rem;
   margin: 0.5rem;
   height: auto;
+  align-items: center;
+  width: 10rem;
+  border-radius: 1rem;
+  border-color:white;
   /* background-color: #98DFD6; */
+}
+.card-img-top{
+  width: 9rem;
+  height: 10rem;
+}
+.resizable-div {
+  width: 10rem; 
+  height: 10rem;
+  /* Set the initial width */
+  /* Set the initial height */
+  
+}
+
+
+/* Media query for larger screens */
+@media (min-width: 768px) {
+  .resizable-div {
+      width: 14rem; 
+      height: 14rem;/* Increase the width on larger screens */
+       /* Increase the height on larger screens */
+     
+  }
+  .imagesizeofc{
+    width: 30rem!important;
+    height: 23rem!important;
+    display: block!important;
+  } 
+
+ 
+}
+
+/* Media query for even larger screens */
+@media (min-width: 1200px) {
+  .resizable-div {
+      width: 18rem; 
+      height: 18rem;
+    
+
+      
+      /* Further increase the width on even larger screens */
+      /* Further increase the height on even larger screens */
+  }
+  .res1{
+     height: 25rem;
+  }
+  .imagesizeofc {
+    width: 35rem!important;
+    height: 27rem;
+
+    display: block!important;
+
+
+}
 }
 .kalign{
   text-align: center;
@@ -177,6 +236,7 @@ section.contact{
 
 #Products{
   padding-top: 3rem;
+  padding-bottom: 10rem;
 }
 section#carousel {
   padding-top: 10rem;
@@ -197,7 +257,7 @@ section#About {
   position: fixed;
   top: 0;
   left: -100%; /* Initially off-screen to the left */
-  width: 80%; /* Adjust as needed */
+  width: 65%; /* Adjust as needed */
   height: 100%;
   background-color: white; /* Background color for the menu */
   transition: left 0.3s ease-in-out; /* Add a transition for smooth animation */
