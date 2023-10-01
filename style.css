@@ -87,7 +87,12 @@ li {
   width: 10rem;
   border-radius: 1rem;
   border-color:white;
+  padding-bottom: 4rem;
+  margin-bottom: 10rem!important;
   /* background-color: #98DFD6; */
+}
+.extramargin{
+  margin-bottom: 20rem!important;
 }
 .card-img-top{
   width: 9rem;
@@ -96,9 +101,30 @@ li {
 .resizable-div {
   width: 10rem; 
   height: 10rem;
+
   /* Set the initial width */
   /* Set the initial height */
   
+}
+.container1{
+  
+  margin: 2rem;
+  display: inline-block;
+}
+.image1 {
+  position: relative;
+  float: left;
+   /* Make this div take up as much space as needed */
+  padding: 1rem; 
+
+  
+ /* Add some spacing around the image */
+}
+
+.content1 {/* Make this div take up more space than the image div */
+  position: relative;
+  float: right;
+  padding: 1rem; /* Add some spacing around the content */
 }
 
 
@@ -115,10 +141,31 @@ li {
     height: 23rem!important;
     display: block!important;
   } 
-
+  .container1 {
+    display: flex; /* Use flexbox to create a flexible layout */
+    align-items: center; /* Vertically center the content */
+  }
+  .image1 {
+    flex: 1;
+     /* Make this div take up as much space as needed */
+    padding: 1rem; 
+    max-width: 100%; /* Ensures the container never exceeds the screen width */
+    margin: 0 auto;
+  
+    
+   /* Add some spacing around the image */
+  }
+  
+  .content1 {/* Make this div take up more space than the image div */
+  flex: 2;
+    padding: 1rem; /* Add some spacing around the content */
+  }
  
 }
-
+.imagesize1{
+  width: 100%; /* This makes the image take up 100% of its container's width */
+  height: auto;
+}
 /* Media query for even larger screens */
 @media (min-width: 1200px) {
   .resizable-div {
@@ -140,6 +187,23 @@ li {
     display: block!important;
 
 
+}
+.image1 {
+  flex: 1;
+   /* Make this div take up as much space as needed */
+  padding: 1rem; 
+
+  
+ /* Add some spacing around the image */
+}
+
+.content1 {/* Make this div take up more space than the image div */
+flex: 2;
+  padding: 1rem; /* Add some spacing around the content */
+}
+.container1 {
+  display: flex; /* Use flexbox to create a flexible layout */
+  align-items: center; /* Vertically center the content */
 }
 }
 .kalign{
@@ -250,6 +314,8 @@ section#About{
 section#About {
   margin-top: 3rem;
 }
+
+
 
 
 
