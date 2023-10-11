@@ -63,18 +63,18 @@ li {
   z-index: 1;
   height: 8rem;
   position: fixed;
-
-}
-#menubar,#carousel,#Products,#contact,#footer{
   background-color: #fff;
   display: block;
   width: 100%;
-
-  /* background-color: #D0E7D2; */
   
+
 }
+
 .widthOftheimage{
   width: 100%;
+}
+.containtpadding{
+  padding: 2rem;
 }
 
 
@@ -114,11 +114,7 @@ li {
   /* Set the initial height */
   
 }
-.container1{
-  
-  margin: 2rem;
-  display: inline-block;
-}
+
 .image1 {
   position: relative;
   float: left;
@@ -140,6 +136,14 @@ li {
   align-items:center ;
   display: inline-flex;
 }
+.imageall{
+  width: 100%;
+  height:100%;
+}
+.imageall1{
+  width:30rem;
+  height:auto;
+}
 
 /* Media query for larger screens */
 @media (min-width: 768px) {
@@ -154,16 +158,25 @@ li {
     height: 23rem!important;
     display: block!important;
   } 
+  
+
+  #Products{
+    padding-top: 3rem;
+    padding-bottom: 19rem;
+  }
+  .imageall{
+    width: 100%;
+    height:100%;
+  }
   .container1 {
     display: flex; /* Use flexbox to create a flexible layout */
     align-items: center; /* Vertically center the content */
   }
+  
   .image1 {
     flex: 1;
      /* Make this div take up as much space as needed */
     padding: 1rem; 
-    max-width: 100%; /* Ensures the container never exceeds the screen width */
-    margin: 0 auto;
   
     
    /* Add some spacing around the image */
@@ -173,11 +186,6 @@ li {
   flex: 2;
     padding: 1rem; /* Add some spacing around the content */
   }
-  #Products{
-    padding-top: 3rem;
-    padding-bottom: 19rem;
-  }
- 
 }
 .imagesize1{
   width: 100%; 
@@ -206,6 +214,11 @@ li {
 
 
 }
+.container1 {
+  display: flex; /* Use flexbox to create a flexible layout */
+  align-items: center; /* Vertically center the content */
+}
+
 .image1 {
   flex: 1;
    /* Make this div take up as much space as needed */
@@ -223,10 +236,9 @@ flex: 2;
   flex: 2;
    /* Make this div take up as much space as needed */
   padding: 1rem; 
-  width: auto;
+  width: 100%;
   height: 20rem;
-
-  
+  display: inline-flex;
  /* Add some spacing around the image */
 }
 
@@ -234,14 +246,18 @@ flex: 2;
 flex: 1;
   padding: 1rem; /* Add some spacing around the content */
 }
-.container1 {
-  display: flex; /* Use flexbox to create a flexible layout */
-  align-items: center; /* Vertically center the content */
-}
+
+
+
 #Products{
   padding-top: 3rem;
   padding-bottom: 30rem;
   margin-bottom: 2rem;
+
+}
+.imageall{
+  width: 70%;
+  height:70%;
 }
 }
 .kalign{
@@ -390,6 +406,9 @@ section#About {
 
 #navbarToggleExternalContent.show {
   left: 0; /* Slide in from the left when open */
+}
+#contact{
+  margin: 1rem;
 }
 
 
