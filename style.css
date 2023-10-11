@@ -341,7 +341,16 @@ section.contact{
   transform: scale(1);
 }
 
+.vediosize{
+  width: auto;
+  height: 30rem;
+  align-items:center ;
+  display: inline-flex;
+}
 
+.flexclass{
+  display: inline-flex;
+}
 
 
 section#carousel {
