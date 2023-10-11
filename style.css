@@ -127,7 +127,12 @@ li {
   float: right;
   padding: 1rem; /* Add some spacing around the content */
 }
-
+.vediosize{
+  width: auto;
+  height: 20rem;
+  align-items:center ;
+  display: inline-flex;
+}
 
 /* Media query for larger screens */
 @media (min-width: 768px) {
@@ -211,6 +216,8 @@ flex: 2;
   flex: 2;
    /* Make this div take up as much space as needed */
   padding: 1rem; 
+  width: auto;
+  height: 20rem;
 
   
  /* Add some spacing around the image */
@@ -341,16 +348,9 @@ section.contact{
   transform: scale(1);
 }
 
-.vediosize{
-  width: auto;
-  height: 30rem;
-  align-items:center ;
-  display: inline-flex;
-}
 
-.flexclass{
-  display: inline-flex;
-}
+
+
 
 
 section#carousel {
