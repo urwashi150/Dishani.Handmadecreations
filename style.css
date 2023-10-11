@@ -60,14 +60,21 @@ li {
   background-color: #fff;
 }
 #menubar{
-  background-color: #fff;
-  display: block;
-  position: fixed;
-  width: 100%;
   z-index: 1;
   height: 8rem;
+  position: fixed;
+
+}
+#menubar,#carousel,#Products,#contact,#footer{
+  background-color: #fff;
+  display: block;
+  width: 100%;
+
   /* background-color: #D0E7D2; */
   
+}
+.widthOftheimage{
+  width: 100%;
 }
 
 
